@@ -1,0 +1,63 @@
+name: music_flutter
+description: A feature-rich Flutter music player app with NetEase Cloud Music API integration.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # State Management
+  get: ^4.6.5
+
+  # Network
+  dio: ^5.1.1
+
+  # Local Storage
+  get_storage: ^2.0.15
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.0.18
+
+  # Audio Player
+  just_audio: ^0.9.36
+
+  # Video Player
+  video_player: ^2.5.0
+
+  # UI Components
+  flutter_svg: ^1.1.6
+  cached_network_image: ^3.2.3
+  shimmer: ^3.0.0
+
+  # Utils
+  path_provider: ^2.0.15
+  permission_handler: ^10.2.0
+  url_launcher: ^6.1.10
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  # Code Generation
+  build_runner: ^2.3.3
+  json_serializable: ^6.5.4
+  hive_generator: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/

@@ -1,0 +1,7 @@
+{
+  "name": "meting-api-tencent-scf",
+  "version": "1.0.0",
+  "description": "Meting API for Tencent Cloud SCF",
+  "main": "index.js",
+  "dependencies": {}
+}

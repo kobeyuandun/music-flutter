@@ -81,5 +81,8 @@ build-scf.js
 # Test coverage
 coverage/
 
+# Node.js / Cloudflare Worker
+**/node_modules/
+
 # Large generated files
 *.lock
